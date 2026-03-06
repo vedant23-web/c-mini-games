@@ -28,7 +28,7 @@ int main(){
             num = (rand() % 50 ) + 1 ;
             std:: cout  << "I have selected a number between 1 and 50\nYou have 7 attempts to guess it.\n";
             
-            for(int i=1; i<7;i++){
+            for(int i=1; i<=7;i++){
                 std:: cout << "\nAnd your guess is : ";
                 std:: cin >> guess;
 
@@ -55,7 +55,7 @@ int main(){
             num = (rand() % 100 ) + 1 ;
             std:: cout  << "I have selected a number between 1 and 100\nYou have 7 attempts to guess it.\n"; 
 
-            for(int i=1; i<7; i++){
+            for(int i=1; i<=7; i++){
                 std:: cout << "\nAnd your guess is : ";
                 std:: cin >> guess;
 
@@ -82,7 +82,7 @@ int main(){
             num = (rand() % 500 ) + 1 ;
             std:: cout  << "I have selected a number between 1 and 500\nYou have 7 attempts to guess it.\n"; 
 
-            for(int i=1; i < 7; i++){
+            for(int i=1; i <=7; i++){
                 std:: cout << "\nAnd your guess is : ";
                 std:: cin >> guess;
 
